@@ -1,58 +1,55 @@
-# Sentiment Analysis of Rwanda’s Distance-Based Fare Pricing System
+# 🚍 Sentiment Analysis of Rwanda’s Distance-Based Fare Pricing System
 
-## Project Overview
+## 📘 Overview
 
-Rwanda recently shifted from flat-rate fares to a distance-based fare pricing model in public transport, aiming to create a fairer and more sustainable transport system. This change has sparked varied reactions across social media platforms like Twitter, Instagram, and Facebook, as well as other communication channels.
+Rwanda recently transitioned from a flat-rate fare model to a **distance-based fare pricing system** in public transportation. This reform aims to promote fairness, sustainability, and efficiency. In response, citizens voiced a range of opinions across social media platforms.
 
-This project analyzes public sentiment towards this new fare system by extracting, processing, and visualizing data from multiple sources. The goal is to provide policymakers with actionable insights into public perception trends, key concerns, and potential misinformation.
+This project showcases a complete end-to-end solution **entirely developed by me** — from **AI-based translation**, **data scraping**, to **natural language processing (NLP)** and interactive **visual analytics**. It’s designed to provide policymakers and stakeholders with actionable insights into how the public perceives the new fare policy.
 
-## Data Sources
-## Data Collection
+---
 
-I collected comments from a specific tweet and related posts across social media platforms announcing the trial of the new **distance-based transport fare system**. The script uses **Selenium** and **undetected-chromedriver** to simulate user scrolling and extract public replies. Additionally, the collected data—originally in Kinyarwanda—was translated into English to enable effective Natural **Language Processing (NLP)** and sentiment analysis.
+## 📥 Data Collection
 
-## The following are Social medias I used:
-- Twitter posts and replies  
-- Instagram comments  
-- Facebook comments
-- LinkedIn  
+Comments were extracted from official and public posts on:
+- **Twitter**
+- **Instagram**
+- **Facebook**
+- **LinkedIn**
 
-These datasets contain user-generated content reflecting real-time opinions and discussions about the distance-based fare system.
+The data collection process used **Selenium** and **undetected-chromedriver** to simulate user interactions and scroll through dynamic content, enabling the extraction of real-time comments and replies.
 
-## Sentiment Analysis Summary
+Since many of the comments were written in **Kinyarwanda**, I built an **AI-powered translation pipeline** to automatically convert them into English using natural language processing tools. This was a necessary step to allow consistent sentiment analysis across multilingual content.
 
-The sentiment analysis of the collected comments shows that:
+---
 
-- **Positive sentiments dominate**, making up approximately **60.2%** of the comments. This indicates that most citizens view the distance-based fare system favorably or are supportive of the change.
+## 🧠 Natural Language Processing & Sentiment Analysis
 
-- **Neutral sentiments account for about 19.7%** of the comments. These represent users who may be undecided, seeking more information, or simply sharing observations without strong opinions.
+After translating all comments into English, I applied sentiment analysis using NLP techniques to classify each message as **positive**, **neutral**, or **negative**.  
 
-- **Negative sentiments constitute roughly 19.5%** of the feedback. These comments highlight concerns, frustrations, or opposition towards aspects of the new pricing model, signaling areas where policymakers should focus on communication and improvement.
+The results show that **the majority of comments (around 60%) were positive**, reflecting a general support or optimism about the fare system shift. These users appreciate the fairness, flexibility, or innovation it brings.  
 
-- A small fraction, **0.6% of comments, express no particular concern** related to the fare change, possibly representing unrelated or off-topic discussions.
+About **19.7% of the comments were neutral**, meaning they neither supported nor criticized the change — they mostly included factual statements, questions, or observations.  
 
-## Features
+Approximately **19.5% of the comments were negative**, highlighting public frustrations or opposition. These comments expressed concerns about implementation, timing, communication, or fairness in specific areas.  
 
-- Upload CSV datasets containing social media comments  
-- Display sentiment distribution and platform usage with clear visualizations  
-- Interactive dashboard built with Streamlit for easy exploration  
-- Insights to guide policymakers on public opinion and areas needing attention  
+A small percentage, around **0.6%**, were off-topic or unrelated to the fare policy.
 
-## How to Run
+---
 
-1. Clone the repository  
-2. Install dependencies: `pip install -r requirements.txt`  
-3. Run the Streamlit app: `streamlit run app.py`  
-4. Upload your CSV dataset via the dashboard and explore the sentiment analysis  
-## Deployment
+## ⚙️ Features
 
-The app is deployed and accessible at:  
-[https://sntiment-analysis-for-transport-pricing.onrender.com](https://sntiment-analysis-for-transport-pricing.onrender.com)
+-  **AI-generated translation** from Kinyarwanda to English
+-  **Real-time sentiment analysis** using NLP
+-  Upload your own social media CSV data to explore trends
+- 🖥 **Interactive dashboard** built with Streamlit
+-  Clear visualizations to help decision-makers understand public opinion
+-  Modular and extensible pipeline for future projects
 
+---
 
+## 🖥️ How to Run Locally
 
-## Repository
-
-[GitHub Repository](https://github.com/Kagabo183/SNTIMENT_ANALYSIS-For-Transport-pricing-shifting)
-
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Kagabo183/SNTIMENT_ANALYSIS-For-Transport-pricing-shifting
+   cd SNTIMENT_ANALYSIS-For-Transport-pricing-shifting
