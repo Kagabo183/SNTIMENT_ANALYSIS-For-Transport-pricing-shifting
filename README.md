@@ -9,9 +9,9 @@ This project analyzes public sentiment towards this new fare system by extractin
 ## Data Sources
 ## Data Collection
 
-We collect comments from a specific tweet and Post Accross social medias announcing the fare system trial. The script uses **Selenium** and **undetected-chromedriver** to simulate user scrolling and extract replies.
+I collected comments from a specific tweet and related posts across social media platforms announcing the trial of the new **distance-based transport fare system**. The script uses **Selenium** and **undetected-chromedriver** to simulate user scrolling and extract public replies. Additionally, the collected data—originally in Kinyarwanda—was translated into English to enable effective Natural **Language Processing (NLP)** and sentiment analysis.
 
-## The following are Social media:
+## The following are Social medias I used:
 - Twitter posts and replies  
 - Instagram comments  
 - Facebook comments
