@@ -10,7 +10,8 @@ This project analyzes public sentiment towards this new fare system by extractin
 
 - Twitter posts and replies  
 - Instagram comments  
-- Facebook comments  
+- Facebook comments
+- LinkedIn  
 
 These datasets contain user-generated content reflecting real-time opinions and discussions about the distance-based fare system.
 
