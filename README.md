@@ -47,8 +47,12 @@ A small percentage, around **0.6%**, were off-topic or unrelated to the fare pol
 
 ---
 
-## 🖥️ How to Run Locally
 
+## Repository
+
+[GitHub Repository](https://github.com/Kagabo183/SNTIMENT_ANALYSIS-For-Transport-pricing-shifting)
+
+## 🖥️ How to Run Locally
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Kagabo183/SNTIMENT_ANALYSIS-For-Transport-pricing-shifting
