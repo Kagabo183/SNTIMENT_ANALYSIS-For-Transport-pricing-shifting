@@ -40,7 +40,15 @@ The sentiment analysis of the collected comments shows that:
 2. Install dependencies: `pip install -r requirements.txt`  
 3. Run the Streamlit app: `streamlit run app.py`  
 4. Upload your CSV dataset via the dashboard and explore the sentiment analysis  
+## Deployment
+
+The app is deployed and accessible at:  
+[https://sntiment-analysis-for-transport-pricing.onrender.com](https://sntiment-analysis-for-transport-pricing.onrender.com)
+
+
 
 ## Repository
 
 [GitHub Repository](https://github.com/Kagabo183/SNTIMENT_ANALYSIS-For-Transport-pricing-shifting)
+
+
