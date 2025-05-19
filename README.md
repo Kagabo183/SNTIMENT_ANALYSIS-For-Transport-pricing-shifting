@@ -7,7 +7,11 @@ Rwanda recently shifted from flat-rate fares to a distance-based fare pricing mo
 This project analyzes public sentiment towards this new fare system by extracting, processing, and visualizing data from multiple sources. The goal is to provide policymakers with actionable insights into public perception trends, key concerns, and potential misinformation.
 
 ## Data Sources
+## Data Collection
 
+We collect comments from a specific tweet and Post Accross social medias announcing the fare system trial. The script uses **Selenium** and **undetected-chromedriver** to simulate user scrolling and extract replies.
+
+## The following are Social media:
 - Twitter posts and replies  
 - Instagram comments  
 - Facebook comments
