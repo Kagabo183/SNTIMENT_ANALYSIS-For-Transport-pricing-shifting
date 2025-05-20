@@ -48,10 +48,22 @@ A small percentage, around **0.6%**, were off-topic or unrelated to the fare pol
 ---
 
 ## Deployment
+## _Sentiment Analysis Interactive visualization_
+**How to Use:**
+
+1. Upload RURA comments CSV file
+2. wait a moment to interact with the visualizations generated from Sentiment data.
 
 The app is deployed and accessible at:  
 https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamlit.app/
 
+## _Sentiment Analysis of RURA Comments Translator_
+
+1. Upload RURA comments CSV file containing a `"Kinyarwanda)"` column.
+2. Click translate and wait a minute to generate the file, after file generated click download.
+
+The AI is deployed and accessible at:
+https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamlit.app/
 
 ## Repository
 
