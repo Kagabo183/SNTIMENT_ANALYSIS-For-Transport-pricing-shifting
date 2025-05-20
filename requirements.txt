@@ -5,3 +5,5 @@ matplotlib
 seaborn
 nltk
 wordcloud
+deep_translator
+
