@@ -50,7 +50,7 @@ A small percentage, around **0.6%**, were off-topic or unrelated to the fare pol
 ## Deployment
 
 The app is deployed and accessible at:  
-[https://sntiment-analysis-for-transport-pricing.onrender.com](https://sntiment-analysis-for-transport-pricing.onrender.com)
+https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamlit.app/
 
 
 ## Repository
