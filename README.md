@@ -9,14 +9,12 @@ This project showcases a complete end-to-end solution **entirely developed by me
 ---
 
 ## 📥 Data Collection
+The data collection process involved **web scraping** using **Selenium** and **undetected-chromedriver**. This setup simulated user interactions (like scrolling and expanding replies) to extract real-time comments from:
 
-Comments were extracted from official and public posts on:
 - **Twitter**
 - **Instagram**
 - **Facebook**
 - **LinkedIn**
-
-The data collection process used **Selenium** and **undetected-chromedriver** to simulate user interactions and scroll through dynamic content, enabling the extraction of real-time comments and replies.
 
 Since many of the comments were written in **Kinyarwanda**, I built an **AI-powered translation pipeline** to automatically convert them into English using natural language processing tools. This was a necessary step to allow consistent sentiment analysis across multilingual content.
 
@@ -38,6 +36,7 @@ A small percentage, around **0.6%**, were off-topic or unrelated to the fare pol
 
 ## ⚙️ Features
 
+-  **Web scraping** for dynamic content
 -  **AI-generated translation** from Kinyarwanda to English
 -  **Real-time sentiment analysis** using NLP
 -  Upload your own social media CSV data to explore trends
