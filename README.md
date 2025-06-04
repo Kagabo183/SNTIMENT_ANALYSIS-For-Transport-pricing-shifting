@@ -56,7 +56,7 @@ A small percentage, around **0.6%**, were off-topic or unrelated to the fare pol
 The app is deployed and accessible at:  
 https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamlit.app/
 
-## _Sentiment Analysis of RURA Comments Translator_
+## _Sentiment Analysis of Comments Translator_
 
 1. Upload RURA comments CSV file containing a `"Kinyarwanda)"` column.
 2. Click translate and wait a minute to generate the file, after file generated click download.
