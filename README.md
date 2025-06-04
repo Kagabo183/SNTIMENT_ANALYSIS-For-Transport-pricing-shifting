@@ -62,7 +62,7 @@ https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamli
 2. Click translate and wait a minute to generate the file, after file generated click download.
 
 The AI is deployed and accessible at:
-[https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamlit.app/](https://translate-sentiment.streamlit.app/)
+[[https://kagabo183-sntiment-analysis-for-transport-pricing-sh-app-srtb7z.streamlit.app/](https://translate-sentiment.streamlit.app/)](https://translate-sentiment.streamlit.app/)
 
 ## Repository
 
